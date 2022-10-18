@@ -8,9 +8,21 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base)
+
 }
-a {
-    color: #161616
+a:link {
+    color: #161616;
+    text-decoration: none;
+}
+a:visited {
+    font-style: italic;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    background-color: var(--color-light-grey);
 }
 .visually-hidden {
     display: none;
@@ -18,9 +30,25 @@ a {
 .card_category {
     color: #D73953;
 }
+.section-header {
+    text-align: var(--section-header-align);
+}
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+}
 .section-tagline {
     color: #D73953;
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+
 }
+
+
 :root {
     --color-primary: #d73953;
 	--color-black: #090909;
@@ -40,6 +68,10 @@ a {
     --line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black)
 
 }
 
