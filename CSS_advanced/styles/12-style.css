@@ -9,6 +9,7 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base)
+
 }
 a {
     color: #161616;
@@ -25,6 +26,10 @@ a {
 }
 .section-tagline {
     color: #D73953;
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+
 }
 
 
@@ -48,6 +53,7 @@ a {
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
     --section-header-align: center;
+    --section-tagline-transform: uppercase;
 
 }
 
