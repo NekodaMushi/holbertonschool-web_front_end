@@ -1,26 +1,3 @@
-        <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Concepts</h3>
-    </div>
-    <div class="panel-body">
-      <p>
-        <em>For this project, we expect you to look at these concepts:</em>
-      </p>
-
-      <ul>
-          <li>
-            <a href="/concepts/875">CSS fundamentals</a>
-          </li>
-          <li>
-            <a href="/concepts/876">CSS advanced</a>
-          </li>
-      </ul>
-    </div>
-
-  </div>
-
-      <div class="panel panel-default" id="project-description">
-
   <div class="panel-body">
     <p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/12/ce6718f1b55e6c1580c6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20221018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221018T094307Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6c5196ee7de74d20006c3ce9f0517573447494e73ea9f75a26d4439b5b7252bb" alt="" loading='lazy' style="" /></p>
 
