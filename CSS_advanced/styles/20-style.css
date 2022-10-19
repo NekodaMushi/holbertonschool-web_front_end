@@ -172,7 +172,7 @@ ul.row {
     text-align: right;
 }
 .row::after {
-    content: none;
+    content: "";
     display: table;
-    float: none;
+    clear: both;
 }
