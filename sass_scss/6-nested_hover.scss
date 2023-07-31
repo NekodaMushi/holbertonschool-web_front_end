@@ -1,0 +1,10 @@
+$brightred: #FF0000;
+$brightgreen: #00FF00;
+
+button {
+  color: $brightred;
+
+  &:hover {
+    color: $brightgreen;
+  }
+}

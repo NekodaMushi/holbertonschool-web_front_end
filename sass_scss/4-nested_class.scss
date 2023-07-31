@@ -1,0 +1,10 @@
+$darkgrey : #3D3D3D;
+$brightred: #FF0000;
+
+body {
+  color: $darkgrey;
+
+  .red {
+    color: $brightred;
+  }
+}
