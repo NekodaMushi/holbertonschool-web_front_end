@@ -370,7 +370,7 @@ a:active {
   display: flex;
 }
 
-ul .row {
+ul.row {
   margin: -1rem;
 }
 
