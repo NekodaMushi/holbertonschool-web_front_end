@@ -368,11 +368,10 @@ a:active {
 
 .row {
   display: flex;
-}
-
-ul.row {
   margin: -1rem;
 }
+
+
 
 [class*='col-'] {
   padding: 0.5rem;
