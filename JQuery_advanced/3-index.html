@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Your Page</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      function createFamilyTree() {
+
+        $('body').append(
+          $('<table>').append(
+            $('<thead>').append(
+              $('<tr>').append(
+                $('<th>').text('Firstname'),
+                $('<th>').text('Lastname')
+              )
+            ),
+            $('<tbody>').append(
+              $('<tr>').append(
+                $('<td>').text('Guillaume'), $('<td>').text('Salva')),
+              $('<tr>').append
+                ($('<td>').text('Paulette'), $('<td>').text('Salva')),
+              $('<tr>').append(
+                $('<td>').text('Antoine'), $('<td>').text('Salva'))
+            )
+          )
+        );
+      }
+      createFamilyTree();
+    });
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
